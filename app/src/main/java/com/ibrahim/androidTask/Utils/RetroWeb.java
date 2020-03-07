@@ -26,7 +26,7 @@ public class RetroWeb {
 
 
             retrofit = new Retrofit.Builder()
-                    .baseUrl("http://fesal.rmal.com.sa/task/api/")
+                    .baseUrl("https://fesal.rmal.com.sa/task/api/")
                     .addConverterFactory(GsonConverterFactory.create())
                     .client(client)
                     .build();

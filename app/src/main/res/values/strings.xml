@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Android Task</string>
+    <string name="signIn">Sign in</string>
+    <string name="emailAddress">Email address</string>
+    <string name="password">Password</string>
+    <string name="noAccount">Don\'t have account?</string>
+    <string name="register">Register</string>
+    <string name="firstName">First name</string>
+    <string name="lastName">Last name</string>
+    <string name="alreadyHaveAccount">Already have an account? </string>
+    <string name="upload">Upload</string>
+    <string name="media">Media</string>
+    <string name="uploadNewMedia">Upload new media</string>
+    <string name="enterFirstName">Please, enter your first name</string>
+    <string name="enterLastName">Please, enter your last name</string>
+    <string name="enterEmail">Please, enter your email address</string>
+    <string name="enterPassword">Please, enter your password</string>
+    <string name="enterValidEmail">Please, enter a valid Email address</string>
+    <string name="enterCorrectPassword">Please, enter a correct password</string>
+    <string name="note">Notes</string>
+    <string name="ok">OK</string>
+    <string name="uploadImage">Upload image</string>
+    <string name="uploadVideo">Upload video</string>
+    <string name="somethingWentWrong">Something went wrong</string>
+    <string name="emptyMedia">Sorry, your media is empty</string>
+    <string name="need_permissions">You should allow the app to use these permissions to work well</string>
 </resources>

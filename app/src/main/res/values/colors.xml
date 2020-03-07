@@ -3,4 +3,10 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="appColor">#2c51c9</color>
+    <color name="grey">#676767</color>
+    <color name="shimmerColor">#D9D9D9</color>
+    <color name="shimmerBackGroundColor">#e3e3e3</color>
 </resources>

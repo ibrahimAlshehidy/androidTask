@@ -41,8 +41,8 @@ public class UploadFragment extends Fragment {
     Bitmap bitmap;
     private static int PICK_IMAGE_REQUEST = 1;
     private static int RESULT_LOAD_VIDEO = 1;
-    boolean selected_image = false;
-    boolean selected_video = false;
+    public static boolean selected_image = false;
+    public static boolean selected_video = false;
     MultipartBody.Part multipartImage;
     MultipartBody.Part multipartVideo;
     private Uri uri;
@@ -158,9 +158,11 @@ public class UploadFragment extends Fragment {
     @OnClick(R.id.tvUpload)
     void uploadImage() {
         if (type.equals("image")) {
-            uploadPresenter.uploadImage(ParentClass.sharedPrefManager.getUserDate().getEmail(),type,multipartImage,selected_image);
+            uploadPresenter.uploadImage(ParentClass.sharedPrefManager.getUserDate().getEmail(),type,multipartImage,selected_image,tvUploadImage,
+                    tvUploadVideo,rlNewMedia,ivUploadNewPic,viewUploadVideo);
         } else {
-            uploadPresenter.uploadImage(ParentClass.sharedPrefManager.getUserDate().getEmail(),type,multipartVideo,selected_video);
+            uploadPresenter.uploadImage(ParentClass.sharedPrefManager.getUserDate().getEmail(),type,multipartVideo,selected_video,tvUploadImage,
+                    tvUploadVideo,rlNewMedia,ivUploadNewPic,viewUploadVideo);
         }
 
     }

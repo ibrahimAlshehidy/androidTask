@@ -23,5 +23,6 @@
     <string name="uploadVideo">Upload video</string>
     <string name="somethingWentWrong">Something went wrong</string>
     <string name="emptyMedia">Sorry, your media is empty</string>
+    <string name="chooseMedia">Please choose media to upload</string>
     <string name="need_permissions">You should allow the app to use these permissions to work well</string>
 </resources>

@@ -217,10 +217,7 @@ public class ParentClass extends AppCompatActivity {
     }
 
 
-    @Override
-    protected void attachBaseContext(Context newBase) {
-        super.attachBaseContext(ViewPumpContextWrapper.wrap(newBase));
-    }
+
 
     public static int calculateNoOfColumns(Context context,int width) {
         DisplayMetrics displayMetrics = context.getResources().getDisplayMetrics();
